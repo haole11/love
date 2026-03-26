@@ -61,7 +61,7 @@ function timeElapse(date){
 
 // 6. 新增：启动定时器，让时间每秒自动刷新（原代码只执行一次）
 // 注意：请将下方的日期修改为你实际的开始日期
-var startDate = "2023-01-01 00:00:00"; 
+var startDate = "2025-08-31 00:00:00"; 
 timeElapse(startDate);
 setInterval(function(){
     timeElapse(startDate);
